@@ -334,13 +334,7 @@ class ActivityViewer(QWidget):
             except Exception as e:
                 QMessageBox.critical(self, "Fehler", f"Konnte nicht speichern: {e}")
 
-# helper wrappers so imports in methods are available
-def get_edge_history(limit=10):
-    return get_edge_history.__wrapped__(limit) if hasattr(get_edge_history, "__wrapped__") else []
-
-def get_firefox_history(limit=10):
-    # These forwarders are only placeholders for name resolution; actual functions above are defined.
-    return globals()['get_firefox_history'](limit)  # use the real one
+ 
 
 # --------------------------
 # App start
