@@ -1,3 +1,32 @@
+# This is a professional-grade Windows activity viewer, designed for
+# forensic analysis, system monitoring, and personal privacy checks.
+# It provides a sleek, animated UI and extracts data from various
+# Windows sources including recent files, event logs, and browser histories.
+#
+# Features:
+# - Recent Files: Lists recently accessed documents and applications.
+# - Login/Logout Events: Extracts security event logs for user sessions.
+# - System Start/Shutdown: Monitors system uptime and reboots.
+# - Browser History: Gathers data from Chrome, Edge, and Firefox.
+# - Summary View: Provides a quick overview of key activities.
+# - Export Functionality: Allows saving all gathered data to a text file.
+# - Animated UI: Smooth transitions and modern aesthetics using PyQt5.
+# - Robust Data Extraction: Handles locked database files gracefully.
+#
+# Usage:
+# Run the script. The UI will guide you through the available features.
+#
+# Dependencies:
+# - PyQt5
+# - qtawesome
+# - pywin32 (for win32evtlog)
+#
+# Installation:
+# pip install PyQt5 qtawesome pywin32
+#
+# Author: Your Name/Organization
+# Date: 2023-10-27
+# Version: 1.0.0
 # win_activity_viewer_pro.py
 import sys
 import os
